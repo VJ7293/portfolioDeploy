@@ -36,8 +36,8 @@ const NavBar = () => {
       <div>
         <h1
           className=" text-5xl font-signature ml-2 text-gradient-to-r 
-          hover:motion-safe:animate-ping w-6 h-6
-              from-cyan-500 to-blue-500 cursor-pointer"
+          hover:motion-safe:animate-ping delay-700 duration-700 ease-in-out w-6 h-6
+              from-cyan-500 to-blue-500 cursor-pointer transition  "
           // hover:text-orange-600
         >
           Vijay{" "}
