@@ -36,7 +36,7 @@ const NavBar = () => {
       <div>
         <h1
           className=" text-5xl font-signature ml-2 text-gradient-to-r 
-          hover:motion-safe:animate-[wiggle_1s_ease-in-out_infinite] w-6 h-6
+          hover:motion-safe:animate-ping w-6 h-6
               from-cyan-500 to-blue-500 cursor-pointer"
           // hover:text-orange-600
         >
@@ -77,6 +77,7 @@ const NavBar = () => {
             return (
               <li
                 key={id}
+                to={link}
                 className="px-4 cursor-pointer capitalize py-6 text-4xl no-underline hover:underline underline-offset-8 hover:decoration-1 decoration-sky-500"
               >
                 <Link to={links}>{link}</Link>
