@@ -58,6 +58,66 @@ const NavBar = () => {
             </li>
           );
         })}
+        <li>
+          <Link
+            to="home"
+            className="px-4 cursor-pointer captalize 
+             text-white font-medium hover:scale-105
+              duration-250 no-underline hover:underline
+               underline-offset-8 hover:decoration-1
+                decoration-sky-500 duration-500"
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="about"
+            className="px-4 cursor-pointer captalize 
+             text-white font-medium hover:scale-105
+              duration-250 no-underline hover:underline
+               underline-offset-8 hover:decoration-1
+                decoration-sky-500 duration-500"
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="portfolio"
+            className="px-4 cursor-pointer captalize 
+             text-white font-medium hover:scale-105
+              duration-250 no-underline hover:underline
+               underline-offset-8 hover:decoration-1
+                decoration-sky-500 duration-500"
+          >
+            portfolio
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="experience"
+            className="px-4 cursor-pointer captalize 
+             text-white font-medium hover:scale-105
+              duration-250 no-underline hover:underline
+               underline-offset-8 hover:decoration-1
+                decoration-sky-500 duration-500"
+          >
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="contact"
+            className="px-4 py-4 cursor-pointer captalize 
+             text-white font-medium hover:scale-105
+              duration-250 no-underline hover:underline
+               underline-offset-8 hover:decoration-1
+                decoration-sky-500 duration-500"
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       <div
@@ -71,19 +131,56 @@ const NavBar = () => {
       {nav && (
         <ul
           className="flex flex-col justify-center items-center absolute top-0 left w-full h-screen 
-       bg-gradient-to-b  from-black via-black to-cyan-800 text-white "
+        bg-gradient-to-b  from-black via-black to-cyan-800 text-white "
         >
-          {links.map(({ id, link }) => {
+          {/* {links.map(({ id, link }) => {
             return (
               <li
                 key={id}
-                to={link}
+                
                 className="px-4 cursor-pointer capitalize py-6 text-4xl no-underline hover:underline underline-offset-8 hover:decoration-1 decoration-sky-500"
               >
-                <Link to={links}>{link}</Link>
+                <Link to={link}>{link}</Link>
               </li>
             );
-          })}
+          })} */}
+          <div>
+            <li
+              className="px-4 cursor-pointer capitalize py-6 
+            text-4xl no-underline hover:underline 
+            underline-offset-8 hover:decoration-1 decoration-sky-500"
+            >
+              <Link to="home">Home</Link>
+            </li>
+            <li
+              className="px-4 cursor-pointer capitalize py-6 
+            text-4xl no-underline hover:underline 
+            underline-offset-8 hover:decoration-1 decoration-sky-500"
+            >
+              <Link to="about">About</Link>
+            </li>
+            <li
+              className="px-4 cursor-pointer capitalize py-6 
+            text-4xl no-underline hover:underline 
+            underline-offset-8 hover:decoration-1 decoration-sky-500"
+            >
+              <Link>portfolio</Link>
+            </li>
+            <li
+              className="px-4 cursor-pointer capitalize py-6 
+            text-4xl no-underline hover:underline 
+            underline-offset-8 hover:decoration-1 decoration-sky-500"
+            >
+              <Link to="experience">Experience</Link>
+            </li>
+            <li
+              className="px-4 cursor-pointer capitalize py-6 
+            text-4xl no-underline hover:underline 
+            underline-offset-8 hover:decoration-1 decoration-sky-500"
+            >
+              <Link to="contact">Contact</Link>
+            </li>
+          </div>
         </ul>
       )}
     </div>
