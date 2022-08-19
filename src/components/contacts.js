@@ -1,5 +1,5 @@
 import React from "react";
-import ScrollToTop from "react-scroll-to-top";
+
 const Contacts = () => {
   return (
     <div
@@ -51,7 +51,6 @@ const Contacts = () => {
           </form>
         </div>
       </div>
-      <ScrollToTop />
     </div>
   );
 };
