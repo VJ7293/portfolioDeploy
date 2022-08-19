@@ -58,7 +58,8 @@ const NavBar = () => {
             </li>
           );
         })} */}
-        <li>
+
+        {/* <li>
           <Link
             to="home"
             className="px-4 cursor-pointer captalize 
@@ -69,7 +70,7 @@ const NavBar = () => {
           >
             Home
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             to="about"
