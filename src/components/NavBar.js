@@ -44,7 +44,7 @@ const NavBar = () => {
         </h1>
       </div>
       <ul className=" hidden md:flex">
-        {links.map(({ id, link }) => {
+        {/* {links.map(({ id, link }) => {
           return (
             <li
               key={id}
@@ -57,7 +57,7 @@ const NavBar = () => {
               </Link>
             </li>
           );
-        })}
+        })} */}
         <li>
           <Link
             to="home"
@@ -146,35 +146,35 @@ const NavBar = () => {
           })} */}
           <div>
             <li
-              className="px-4 cursor-pointer capitalize py-6 
+              className=" cursor-pointer capitalize py-6 
             text-4xl no-underline hover:underline 
             underline-offset-8 hover:decoration-1 decoration-sky-500"
             >
               <Link to="home">Home</Link>
             </li>
             <li
-              className="px-4 cursor-pointer capitalize py-6 
+              className=" cursor-pointer capitalize py-6 
             text-4xl no-underline hover:underline 
             underline-offset-8 hover:decoration-1 decoration-sky-500"
             >
               <Link to="about">About</Link>
             </li>
             <li
-              className="px-4 cursor-pointer capitalize py-6 
+              className=" cursor-pointer capitalize py-6 
             text-4xl no-underline hover:underline 
             underline-offset-8 hover:decoration-1 decoration-sky-500"
             >
-              <Link>portfolio</Link>
+              <Link to="portfolio">portfolio</Link>
             </li>
             <li
-              className="px-4 cursor-pointer capitalize py-6 
+              className=" cursor-pointer capitalize py-6 
             text-4xl no-underline hover:underline 
             underline-offset-8 hover:decoration-1 decoration-sky-500"
             >
               <Link to="experience">Experience</Link>
             </li>
             <li
-              className="px-4 cursor-pointer capitalize py-6 
+              className=" cursor-pointer capitalize py-6 
             text-4xl no-underline hover:underline 
             underline-offset-8 hover:decoration-1 decoration-sky-500"
             >
