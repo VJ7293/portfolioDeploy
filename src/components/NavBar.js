@@ -6,28 +6,28 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   // this is the nav bar links
-  const links = [
-    {
-      id: 1,
-      link: "Home",
-    },
-    {
-      id: 2,
-      link: "About",
-    },
-    {
-      id: 3,
-      link: "Portfolio",
-    },
-    {
-      id: 4,
-      link: "Experience",
-    },
-    {
-      id: 5,
-      link: "Contact",
-    },
-  ];
+  // const links = [
+  //   {
+  //     id: 1,
+  //     link: "Home",
+  //   },
+  //   {
+  //     id: 2,
+  //     link: "About",
+  //   },
+  //   {
+  //     id: 3,
+  //     link: "Portfolio",
+  //   },
+  //   {
+  //     id: 4,
+  //     link: "Experience",
+  //   },
+  //   {
+  //     id: 5,
+  //     link: "Contact",
+  //   },
+  // ];
   return (
     <div
       className="flex  justify-between items-center
