@@ -1,10 +1,11 @@
 import React from "react";
 import ScrollToTop from "react-scroll-to-top";
+
 const Contacts = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b
+      className="w-full  bg-gradient-to-b
      from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
@@ -43,15 +44,32 @@ const Contacts = () => {
             ></textarea>
 
             <button
-              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex
+              //   className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex
+              // items-center rounded-md hover:scale-110 duration-300"
+              className="text-cyan-900 bg-gradient-to-t from-cyan-800 to-blue-300  px-6 py-3 my-8 mx-auto flex
             items-center rounded-md hover:scale-110 duration-300"
             >
+              <img
+                src="https://img.icons8.com/3d-fluency/24/000000/paper-plane.png"
+                alt="paper plane"
+              />
               lets talk
             </button>
           </form>
         </div>
+        <iframe
+          className="fixed top-[35%]"
+          src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fgrand-salmiakki-ec9d6f.netlify.app&width=188&layout=button&action=recommend&size=large&share=true&height=65&appId"
+          width="188"
+          height="65"
+          style={{ border: "none", overflow: "hidden" }}
+          scrolling="no"
+          frameBorder="0"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
       </div>
-      <ScrollToTop />
+
+      <ScrollToTop smooth />
     </div>
   );
 };

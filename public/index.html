@@ -27,8 +27,21 @@
     <title>React App</title>
   </head>
   <body>
+    <script
+    async
+    defer
+    crossOrigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0"
+    nonce="6KhBMvT4"
+  ></script>
+    <div id="fb-root">
+   
+      <div id="root">
+    
+      </div>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+   
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +52,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div
+        className="fb-comments"
+        data-href="https://grand-salmiakki-ec9d6f.netlify.app"
+        data-width="auto"
+        data-numposts="5"
+      ></div>
   </body>
 </html>

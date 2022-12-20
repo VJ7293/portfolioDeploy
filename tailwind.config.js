@@ -9,6 +9,11 @@ module.exports = {
     //   navcol: "#659DBD",
     // },
     extend: {
+      backgroundImage: (theme) => ({
+        "roc-ket":
+          "url(https://prod.spline.design/p36LtUny-QTybQjo/scene.splinecode)",
+      }),
+
       animation: {
         "spin-slow": "spin 3s linear infinite",
       },

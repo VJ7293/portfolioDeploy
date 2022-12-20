@@ -6,17 +6,19 @@ import Portfolio from "./components/Portfolio";
 import Experience from "./components/experience";
 import Contacts from "./components/contacts";
 import SocialLinks from "./components/SocialLinks";
-
+import Google from "./components/Google";
 const App = (porps) => {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Experience />
-      <SocialLinks />
-      <Contacts />
+      <div>
+        <NavBar />
+        <Home />
+        <About />
+        <Portfolio />
+        <Experience />
+        <SocialLinks />
+        <Contacts />
+      </div>
     </div>
   );
 };

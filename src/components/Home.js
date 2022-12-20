@@ -2,6 +2,7 @@ import React from "react";
 import heroImage from "../assets/hero.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+
 const Home = (props) => {
   return (
     <div
