@@ -6,7 +6,7 @@ import Portfolio from "./components/Portfolio";
 import Experience from "./components/experience";
 import Contacts from "./components/contacts";
 import SocialLinks from "./components/SocialLinks";
-import Google from "./components/Google";
+
 const App = (porps) => {
   return (
     <div>
