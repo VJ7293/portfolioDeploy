@@ -59,7 +59,7 @@ const Contacts = () => {
         </div>
         <iframe
           title="share,Like"
-          className="fixed top-[35%] opacity-50"
+          className="fixed top-[35%] right-0  md:mr-auto opacity-50"
           src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fgrand-salmiakki-ec9d6f.netlify.app&width=188&layout=button&action=recommend&size=large&share=true&height=65&appId"
           width="250"
           height="auto"
