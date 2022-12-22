@@ -9,7 +9,7 @@ const Portfolio = () => {
       src: reactWeather,
       // here  to add the links and add onClick( to the button)
       // add link here
-      link: "https",
+      link: "https://github.com/VJ7293/React_weather_App.git",
     },
     {
       id: 2,
