@@ -21,9 +21,7 @@ const Portfolio = () => {
       src: usestate,
     },
   ];
-  const handleLink = (link) => {
-    return portfolios.link;
-  };
+
   return (
     <div
       name="portfolio"
