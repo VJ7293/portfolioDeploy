@@ -15,7 +15,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: AI,
-      codelink: "https://vj-open-ai.vercel.app",
+      demolink: "https://vj-open-ai.vercel.app",
     },
   ];
 
