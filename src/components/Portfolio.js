@@ -1,7 +1,7 @@
 import React from "react";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import usestate from "../assets/portfolio/usestate.jpg";
+import AI from "../assets/portfolio/TaeJune15.jpg";
+
 const Portfolio = () => {
   const portfolios = [
     {
@@ -14,11 +14,8 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: arrayDestruct,
-    },
-    {
-      id: 3,
-      src: usestate,
+      src: AI,
+      codelink: "https://vj-open-ai.vercel.app",
     },
   ];
 
