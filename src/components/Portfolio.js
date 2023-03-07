@@ -1,7 +1,7 @@
 import React from "react";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import AI from "../assets/portfolio/TaeJune15.jpg";
-
+import NotesApp from "../assets/portfolio/notesApp.png";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -16,6 +16,12 @@ const Portfolio = () => {
       id: 2,
       src: AI,
       demolink: "https://vj-open-ai.vercel.app",
+    },
+    {
+      id: 3,
+      src: NotesApp,
+      demolink: "https://vjnotes.netlify.app",
+      codelink: "https://github.com/VJ7293/Notes_App.git  ",
     },
   ];
 
@@ -36,12 +42,16 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-4 md:grid-cols-4 gap-8 px-12 sm:px-0">
           {/* looping  */}
           {portfolios.map(({ id, src, codelink, demolink }) => {
             return (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                <img src={src} alt="" className="rounded-md duration-200 " />
+                <img
+                  src={src}
+                  alt=""
+                  className="rounded-md overflow-auto w-full h-full  duration-200 "
+                />
                 <div className="flex justify-between items-center ">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     <a
