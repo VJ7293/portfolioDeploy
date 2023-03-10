@@ -28,12 +28,12 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black
+      className=" bg-gradient-to-b from-black
        to-gray-800 w-full text-white md:h-screen"
     >
       <div
         className="max-w-screen-lg p-4 mx-auto
-       flex flex-col justify-center w-full h-full"
+       flex flex-col justify-center w-full h-auto"
       >
         <div className="pb-8 pt-3">
           <p className="text-4xl md:mt-20 font-bold inline border-b-4 border-gray-500">
@@ -42,18 +42,21 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-4 md:grid-cols-4 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-4 md:grid-cols-5 gap-8 px-12 sm:px-0">
           {/* looping  */}
           {portfolios.map(({ id, src, codelink, demolink }) => {
             return (
-              <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+              <div
+                key={id}
+                className="mt-8 shadow-md shadow-gray-600 rounded-lg"
+              >
                 <img
                   src={src}
                   alt=""
                   className="rounded-md overflow-auto w-full h-full  duration-200 "
                 />
                 <div className="flex justify-between items-center ">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button className="w-1/2 px-6 py-3 duration-200  hover:scale-105">
                     <a
                       href={demolink}
                       target="_blank"

@@ -40,8 +40,7 @@ const Experience = (props) => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full 
-    "
+      className="bg-gradient-to-b from-gray-800 to-black w-full p-10"
     >
       <div
         className="max-w-screen-lg mx-auto 
