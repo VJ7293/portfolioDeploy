@@ -1,6 +1,6 @@
 import React from "react";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import AI from "../assets/portfolio/TaeJune15.jpg";
+// import AI from "../assets/portfolio/TaeJune15.jpg";
 import NotesApp from "../assets/portfolio/notesApp.png";
 const Portfolio = () => {
   const portfolios = [
@@ -12,11 +12,11 @@ const Portfolio = () => {
       codelink: "https://github.com/VJ7293/React_weather_App.git",
       demolink: "https://vijayweatherapp.netlify.app",
     },
-    {
-      id: 2,
-      src: AI,
-      demolink: "https://vj-open-ai.vercel.app",
-    },
+    // {
+    //   id: 2,
+    //   src: AI,
+    //   demolink: "https://vj-open-ai.vercel.app",
+    // },
     {
       id: 3,
       src: NotesApp,

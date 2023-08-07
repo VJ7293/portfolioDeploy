@@ -13,11 +13,11 @@ const Home = (props) => {
 
     let result = "";
     if (hours >= 0 && hours <= 11) {
-      result = `Godd Morning visitor🌅  `;
+      result = `Hi Good Morning 🌅  `;
     } else if (hours >= 12 && hours <= 17) {
-      result = `Good AfterNoon visitor 🕛 `;
+      result = `HiGood AfterNoon  🕛 `;
     } else if (hours >= 18) {
-      result = "Good Evening visitor 🌇 ";
+      result = `Hi Good Evening  🌇 `;
     }
     return result;
   };
@@ -63,14 +63,14 @@ const Home = (props) => {
           </div>
         </div>
 
-        <div>
-          <h1>{greetings} </h1>
+        <div className="pb-11">
+          <h1 className="mb-18">{greetings} </h1>
         </div>
         <div>
           <img
             src={heroImage}
             alt="vijay"
-            className=" opacity-40 drop-shadow-2xl backdrop-opacity-10 backdrop-invert bg-white/30 shadow-white rounded-2xl mx-auto w-2/3 fill-transparent md:w-full shadow-white-10 mb-36"
+            className=" opacity-70 drop-shadow-2xl backdrop-opacity-10 backdrop-invert bg-white/30 shadow-white rounded-2xl mx-auto w-2/3 fill-transparent md:w-full shadow-white-10 mb-36"
           />
         </div>
       </div>
