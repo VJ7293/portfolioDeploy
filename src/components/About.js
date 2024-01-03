@@ -27,12 +27,14 @@ const About = () => {
             {" "}
             <u>Mechatronics Engineering</u>
           </b>{" "}
+          and pursuing
+          <b> BCA in Computer Application at Jain distance Studies </b>
           ,yeah i know its a new engineering stream but porgressive one becuase
           of subjects you learn ,Electronics , Mechanical, computer science,
           <b>
             <u>Mechatronics </u>{" "}
           </b>
-          is about merging hardware and software.this gave me confidence that i
+          is about merging hardware and software this gave me confidence that i
           can even climb a everst mount because ... nahh just kidding this is
           brief about Me. But you can
           <mark>

@@ -70,7 +70,8 @@ const Home = (props) => {
           <img
             src={heroImage}
             alt="vijay"
-            className=" opacity-70 drop-shadow-2xl backdrop-opacity-10 backdrop-invert bg-white/30 shadow-white rounded-2xl mx-auto w-2/3 fill-transparent md:w-full shadow-white-10 mb-36"
+            className=" opacity-70 drop-shadow-2xl backdrop-opacity-10 backdrop-invert
+             bg-white/30 shadow-white rounded-2xl mx-auto w-2/3 fill-transparent md:w-full shadow-white-10 mb-36"
           />
         </div>
       </div>
