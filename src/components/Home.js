@@ -1,5 +1,6 @@
 import React from "react";
 import heroImage from "../assets/hero.jpg";
+import Vijay from "../assets/portfolio/Vijay.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -68,10 +69,10 @@ const Home = (props) => {
         </div>
         <div>
           <img
-            src={heroImage}
+            src={Vijay}
             alt="vijay"
             className=" opacity-70 drop-shadow-2xl backdrop-opacity-10 backdrop-invert
-             bg-white/30 shadow-white rounded-2xl mx-auto w-2/3 fill-transparent md:w-full shadow-white-10 mb-36"
+             bg-white/30 shadow-white rounded-2xl mx-auto lg:mt-32 lg:ml-6 w-11/12 fill-transparent md:w-full shadow-white-10 mb-36"
           />
         </div>
       </div>
